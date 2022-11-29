@@ -1,0 +1,37 @@
+body {
+    display: flex;
+}
+
+nav {
+    background: #03DAC5;
+    width: 250px;
+    height: 610px;
+}
+
+header, footer {
+    background: khaki;
+    width: 830pt;
+    height: 50pt;
+}
+
+.main {
+    display: flex;
+    height: 335pt;
+}
+
+article {
+    width: 500pt;
+    order: 1;
+}
+
+aside {
+    background: pink;
+    width: 306pt;
+    order: 2;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+
+

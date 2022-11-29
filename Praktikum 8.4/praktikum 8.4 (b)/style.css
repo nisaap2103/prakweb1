@@ -1,0 +1,50 @@
+body {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold ;
+    font-family: sans-serif;
+    vertical-align: middle;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 270pt;
+}
+
+header, footer, div {
+    margin: 10pt;
+}
+header, footer {
+    background: skyblue;
+    height: 50pt;
+}
+
+aside {
+    background: cadetblue;
+    width: 200pt;
+}
+
+article {
+    background: palevioletred;
+    display: flex;
+    width: 700pt;
+    text-align: center;
+}
+
+.img {
+    background: thistle;
+    background-position:left center;
+    margin-top: 130pt;
+    width: 200pt;
+    height: 70pt;
+    padding: 1em;
+}
+
+header, footer, article, aside {
+    padding: 1em;
+}
