@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biaya Parkir</title>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Biaya Parkir</h1>
+        <form>
+            <h4>Jam Masuk</h4>
+            <input type="number" id="masuk">
+            <br>
+            <h4>Jam Keluar</h4>
+            <input type="number" id="keluar">
+            <hr>
+            <h4>Total Biaya</h4>
+            <input type="text" id="biaya">
+            <br>
+            <br>
+            <input class="button" type="button" value="Hitung" onclick="parkir();">
+            <br>
+        </form>
+    </div>
+        
+    <!-- Kode Javascript -->
+    <script>
+
+        // Buat Fungsi untuk menghitung biaya parkir
+        function parkir() {
+            // Tangkap nilai input jam masuk ke variabel m
+            let m = document.getElementById("masuk").value;
+            // Tangkap nilai input jam keluar ke variabel k
+            let k = document.getElementById("keluar").value;
+            // Buat total waktu parkir
+            let t = k - m;
+
+            // Buat tarif awal
+            let tarif_awal = 3000;
+            // Selisih waktu jika lebih dari 2 jam
+            let selisih_waktu = Math.round(t - 2);
+            // Buat tarif lanjut
+            let tarif_lanjut = selisih_waktu * 1000;
+            // Buat tarif total
+            let total_tarif = tarif_awal + tarif_lanjut;
+            
+            // Tangkap hasil tarif total dan tampilkan
+            document.getElementById("biaya").value = "   Rp." + total_tarif;
+        }
+    </script>    
+</body>
+</html>
