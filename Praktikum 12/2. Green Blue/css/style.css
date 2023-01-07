@@ -1,0 +1,60 @@
+
+.title {
+        padding: 10pt;
+        background-color: rgb(85, 32, 32);
+}
+
+.text-center {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+    
+a {
+    color: greenyellow;
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+a:active {
+    color: yellow;
+}
+
+div.nav {
+    margin-bottom: 10pt;
+    padding: 10pt;
+    background-color: rgb(34, 10, 10)
+}
+
+div.carousel-caption {
+    color: rgb(65, 17, 17);
+    font-weight: bold;
+}
+
+div.jumbotron {
+    background-color: darkkhaki;
+    color: rgb(34, 10, 10);
+}
+
+div.carousel-inner {
+    margin-bottom: 10pt;
+}
+
+div.side {
+    background-color:wheat;
+    padding: 5pt;
+    
+}
+
+footer {
+    padding: 20pt;
+    color: white;
+    background-color: rgb(68, 18, 18);
+}
+
+button.footer {
+    color: white;
+    background-color: brown;
+}

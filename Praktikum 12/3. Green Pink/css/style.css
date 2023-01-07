@@ -1,0 +1,130 @@
+body {
+    background-color: khaki;
+}
+
+header {
+    background-color: rgb(43, 0, 0);
+    padding: 10pt;
+    margin-bottom: 20pt;
+    border-radius: 0 0 5pt 5pt;
+}
+
+i {
+    margin-left: 60pt;
+    color: white;
+}
+
+h1.header {
+    margin-left: 60pt;
+}
+
+strong {
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+img.order {
+    padding: 5pt;
+    width: 50%;
+}
+
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+span {
+    color: yellow;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div.dropdown-divider {
+    background-color: darkred;
+}
+
+div.side {
+    background-color: white;
+    padding: 10pt;
+    border-radius: 3pt;
+}
+
+footer {
+    margin-top: 10pt;
+    color: white;
+    padding-top: 30pt;
+    padding-bottom: 50pt;
+    padding-left: 20pt;
+    background-color: rgb(43, 0, 0);
+}
+
+#tophead {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+.webHeader {
+    font-weight: bold;
+    font-family: monospace;
+    color: yellow;
+    font-size: 700%;
+
+}
+
+#tophead h1 {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}   
+
+.webHeader2 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.webHeader2 span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 92);
+    display: block;
+}
+
+.small {
+    font-size: 90%;
+}
+h2.up {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span.up {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(36, 61, 36);
+    font-size: 120%;
+}
